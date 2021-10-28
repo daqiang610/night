@@ -95,7 +95,7 @@ users:
       #address 地址，定位信息
       address: '福建省福州市连江县潘渡镇福建商学院学生公寓-3号楼'
       #sendKey 当sendType为0时代表邮箱，当sendType为1时代表接收消息的QQ号码
-      sendKey: '1606840716@qq.com'
+      sendKey: '1287416866@qq.com'
       #school 学校全称
       schoolName: 福建商学院
       # 附上经纬度查询地址（请自行选择自己的学校地址，address，lon，lat都要填查询到的）：http://api.map.baidu.com/lbsapi/getpoint/index.html
