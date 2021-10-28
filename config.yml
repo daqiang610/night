@@ -119,3 +119,37 @@ users:
         - form:
             title: 本人承诺以上所填报的全部内容均属实、准确，不存在任何隐瞒与不实的情况，更无遗漏之处
             value: 是            
+  - user:
+      # 任务类型（收集：0、签到：1、查寝：2）
+      type: 1
+      #username 学号或者工号
+      username: '202112082126'
+      #password 密码
+      password: '182939.Zz'
+      #address 地址，定位信息
+      address: '福建省福州市连江县潘渡镇福建商学院学生公寓-2号楼'
+      #sendKey 当sendType为0时代表邮箱，当sendType为1时代表接收消息的QQ号码
+      sendKey: '2405950225@qq.com'
+      #school 学校全称
+      schoolName: 福建商学院
+      # 附上经纬度查询地址（请自行选择自己的学校地址，address，lon，lat都要填查询到的）：http://api.map.baidu.com/lbsapi/getpoint/index.html
+      #lon 经度
+      lon: 119.470622
+      #lat 纬度
+      lat: 26.248798
+      #abnormalReason 反馈信息（这个一般不用配置，但是不能删除，删除会报错）
+      abnormalReason: ''
+      # 是否检查表单的标题（1代表检查，0代表不检查）
+      checkTitle: 1
+      # 表单信息
+      forms:
+        - form:
+            title: 你是否有发热（≥37.3℃）、乏力、干咳、咽痛、急性腹泻等传染病相关症状
+            value: 否
+        - form:
+            title: 你今天晚上18：00－22：00间的体温
+            value: 其它
+            other: 36.6
+        - form:
+            title: 本人承诺以上所填报的全部内容均属实、准确，不存在任何隐瞒与不实的情况，更无遗漏之处
+            value: 是
